@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "gabriel.h"
 
-char *alocaString(char *);
+
 int main(){
     int i=0;
     char frase[1000];
@@ -14,7 +14,7 @@ int main(){
 }
 
 /*
-void *alocaString(char *frase, char **string){
+void alocaString(char *frase, char **string){
     int i=0, j;
     while(frase[i]!='\0'){
         i++;
